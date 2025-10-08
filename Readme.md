@@ -9,14 +9,14 @@ Une application Java pour **gérer des personnes** avec une base de données MyS
 ---
 
 ## 🔹 Table des matières
-1. [Importation du projet](#importation-du-projet)
-2. [Installation des dépendances](#installation-des-dépendances)
-3. [Configuration de la base de données](#configuration-de-la-base-de-données)
-4. [Interface graphique](#interface-graphique)
-5. [Tests unitaires](#tests-unitaires)
-6. [Git et déploiement sur GitHub](#git-et-déploiement-sur-github)
-7. [Résumé](#résumé)
-8. [Screenshots](#screenshots)
+1. [Importation du projet](##importation-du-projet)
+2. [Installation des dépendances](##installation-des-dépendances)
+3. [Configuration de la base de données](##onfiguration-de-la-base-de-données)
+4. [Interface graphique](##interface-graphique)
+5. [Tests unitaires](##tests-unitaires)
+6. [Git et déploiement sur GitHub](##git-et-déploiement-sur-github)
+7. [Résumé](##résumé)
+8. [Screenshots](##screenshots)
 
 ---
 
