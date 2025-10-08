@@ -92,7 +92,7 @@ service.create(person);
 ```
 ## 🔹 Tests unitaires
 
-L’application utilise **JUnit 5** pour tester le bon fonctionnement des fonctionnalités principales, notamment l’insertion, la modification, la suppression et l’authentification des personnes.
+L’application utilise **JUnit 5** pour tester le bon fonctionnement des fonctionnalités principales, notamment l’insertion et l’authentification des personnes.
 
 ### 1️⃣ Structure des tests
 
