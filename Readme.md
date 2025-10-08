@@ -79,13 +79,13 @@ Cette interface permet d’ajouter une personne dans la base de données via un 
 
 **Caractéristiques :**
 - Champs : **Prénom, Nom, Âge, Email, Mot de passe**  
-- Bouton : **Insert Person** pour envoyer les données  
-- Messages interactifs : succès ou erreur d’insertion  
+- Boutons : **Add** pour envoyer les données, **Update** pour actualiser les données,
+**Delete** pour supprimer les données et **Clear** pour vider les champs. 
+- Messages interactifs : Après chaque opération, un message de succès ou d'échec est donné.
+- Le champs de recherche nous sert  filtrer l'affichage de nos données.
 
-**Fonctionnement :**
-1. L’utilisateur saisit les informations dans les champs.  
-2. Lorsqu’il clique sur le bouton, les données sont envoyées à **PersonService**, qui utilise **MySQLPersonDAO** pour les insérer dans la base.  
-3. Une boîte de dialogue informe de la réussite ou des erreurs (ex. âge invalide ou email existant).  
+***Notons que pour modifier ou supprimer les donnes nous il faut y cliquer dans le panneau
+d'affichage*** 
 
 **Exemple de code :**
 ```java
@@ -155,7 +155,7 @@ Il faut :
 ## 🔹 Résumé
 Le **Projet Gestion de Personnes** est une application Java permettant de gérer des informations personnelles via une base de données **MySQL**. Il inclut :
 
-- **Insertion** des personnes.
+- **Insertion**, **modification**, **suppression** et **recherche** des personnes.
 - Une **interface graphique Swing** simple et intuitive pour ajouter ou se connecter.
 - Un **système d’authentification** sécurisé par email et mot de passe.
 - Des **tests unitaires JUnit 5** garantissant le bon fonctionnement des fonctionnalités principales.
