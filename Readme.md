@@ -144,15 +144,11 @@ static void setup() throws ClassNotFoundException, SQLException {
 ```
 
 ## 🔹 Git et déploiement sur GitHub
-Normalement on devrait : 
+Il faut : 
 - Créer un dépôt sur github
-- Initialiser le projet
-- Configurer l'origine du dépôt
-- faire les push
-
-Avec **intelliJ** il faut localiser le buton Alt+9, configurer le projet, 
-s'authentifier et publier son projet comme vous allez le voir dans les camptures concernant les 
-notes de ce projet.
+- Initialiser le projet ```git init```
+- Configurer l'origine du dépôt `git remote add origin <lien vers le repos>`
+- faire les push `git push orin mster`
 
 ## 🔹 Résumé
 Le **Projet Gestion de Personnes** est une application Java permettant de gérer des informations personnelles via une base de données **MySQL**. Il inclut :
@@ -172,8 +168,11 @@ Le projet a été conçu pour être facilement importé dans **IntelliJ**, avec 
 **Connection success**
 ![connexion reussi](images/img.png)
 
+**Insertion**
+![insertion](images/img_4.png)
+
 **Insertion succeed**
-![connexion succed](images/img_2.png)
+![connexion succed](images/img_3.png)
 
 ---
 
