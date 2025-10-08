@@ -157,7 +157,7 @@ notes de ce projet.
 ## 🔹 Résumé
 Le **Projet Gestion de Personnes** est une application Java permettant de gérer des informations personnelles via une base de données **MySQL**. Il inclut :
 
-- **Insertion, modification, suppression et consultation** des personnes.
+- **Insertion** des personnes.
 - Une **interface graphique Swing** simple et intuitive pour ajouter ou se connecter.
 - Un **système d’authentification** sécurisé par email et mot de passe.
 - Des **tests unitaires JUnit 5** garantissant le bon fonctionnement des fonctionnalités principales.
