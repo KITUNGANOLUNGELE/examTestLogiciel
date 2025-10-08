@@ -20,10 +20,10 @@ public interface PersonDAO {
 	
 	/**
 	 * Delete person's data from the database.
-	 * @param person
+	 * @param id
 	 * @throws SQLException
 	 */
-	void delete(Person person) throws SQLException;
+	void delete(int id) throws SQLException;
 	
 	/**
 	 * Fetch person's information from the database using her/his Id.

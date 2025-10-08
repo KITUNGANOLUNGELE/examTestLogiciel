@@ -157,7 +157,7 @@ class MySQLPersonDAOTest {
 	@DisplayName("Delete person from the database.")
 	void deleteTest() {
 		try {
-			dao.delete(testPerson);
+			dao.delete(testPerson.getId());
 			Person person = dao.findPersonById(testPerson.getId());
 			assertNull(person);
 		} catch (SQLException e) {
@@ -171,7 +171,7 @@ class MySQLPersonDAOTest {
 	void deleteFakePersonTest() {
 		try {
 			Person fakePerson = new Person(0, "fakeFirstName", "fakeLastName", 20, "fakeemail@fake.com", "fakepassword");
-			assertThrowsExactly(IllegalArgumentException.class, () -> dao.delete(fakePerson));
+			assertThrowsExactly(IllegalArgumentException.class, () -> dao.delete(fakePerson.getId()));
 		} catch (Exception e) {
 			fail(e.getMessage());
 		}

@@ -164,17 +164,16 @@ Le **Projet Gestion de Personnes** est une application Java permettant de gérer
 Le projet a été conçu pour être facilement importé dans **IntelliJ**, avec toutes les dépendances nécessaires (MySQL Connector, JUnit) et offre une expérience utilisateur claire sans configuration complexe
 
 ## 🔹 screenshots
-**connexion**
-![Connexion](images/img_1.png)
+![Connexion](images/img.png)
+![connexion reussi](images/img_1.png)
+![connexion reussi](images/img_2.png)
+![connexion reussi](images/img_3.png)
+![connexion reussi](images/img_4.png)
+![connexion reussi](images/img_5.png)
+![connexion reussi](images/img_6.png)
+![connexion reussi](images/img_7.png)
+![connexion reussi](images/img_8.png)
 
-**Connection success**
-![connexion reussi](images/img.png)
-
-**Insertion**
-![insertion](images/img_4.png)
-
-**Insertion succeed**
-![connexion succed](images/img_3.png)
 
 ---
 

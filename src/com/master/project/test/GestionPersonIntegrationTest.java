@@ -158,7 +158,7 @@ class GestionPersonIntegrationTest {
 	@DisplayName("Delete person from the database.")
 	void deleteTest() {
 		try {
-			service.remove(testPerson);
+			service.remove(testPerson.getId());
 			Person person = service.listPersonById(testPerson.getId());
 			assertNull(person);
 		} catch (SQLException e) {
@@ -172,7 +172,7 @@ class GestionPersonIntegrationTest {
 	void deleteFakePersonTest() {
 		try {
 			Person fakePerson = new Person(0, "fakeFirstName", "fakeLastName", 20, "fakeemail@fake.com", "fakepassword");
-			assertThrowsExactly(IllegalArgumentException.class, () -> service.remove(fakePerson));
+			assertThrowsExactly(IllegalArgumentException.class, () -> service.remove(fakePerson.getId()));
 		} catch (Exception e) {
 			fail(e.getMessage());
 		}

@@ -85,20 +85,20 @@ public class MySQLPersonDAO implements PersonDAO {
 	}
 
 	@Override
-	public void delete(Person person) throws SQLException {
+	public void delete(int id) throws SQLException {
 		String query = "DELETE FROM person WHERE id = ?";
 
 		try (Connection con = getConnection()) {
 			PreparedStatement ps = con.prepareStatement(query);
 
-			ps.setInt(1, person.getId());
+			ps.setInt(1, id);
 			int record = ps.executeUpdate();
 
 			if (record > 0) {
 				System.out.println("Person deleted successfully.");
 			} else {
 				throw new IllegalArgumentException(
-						String.format("%s is not deleted from the database.", person.toString()));
+						String.format("%s is not deleted from the database."));
 			}
 		} catch (SQLException e) {
 			throw new SQLException("Failed to delete person, " + e.getMessage());

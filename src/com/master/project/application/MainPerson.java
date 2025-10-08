@@ -54,7 +54,7 @@ public class MainPerson {
 			
 			// Delete person
 			System.out.println("-------------------Delete person--------------");
-			service.remove(person5);
+			service.remove(person5.getId());
 
 			System.out.println("========================LIST ALL PERSONS===========================");
 			service.listPersons().forEach(person -> {
@@ -62,7 +62,7 @@ public class MainPerson {
 			});
 						
 			// Fake person deletion
-			service.remove(person6);
+			service.remove(person6.getId());
 
 		} catch (IllegalArgumentException e1) {
 //			e1.printStackTrace();

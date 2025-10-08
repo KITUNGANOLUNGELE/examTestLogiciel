@@ -33,8 +33,8 @@ public class PersonService {
 		dao.update(person);
 	}
 	
-	public void remove(Person person) throws SQLException {
-		dao.delete(person);
+	public void remove(int id) throws SQLException {
+		dao.delete(id);
 	}
 
 	public Person listPersonById(int id) throws SQLException {
