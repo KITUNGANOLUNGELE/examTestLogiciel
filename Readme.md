@@ -17,6 +17,8 @@ Une application Java pour **gérer des personnes** avec une base de données MyS
 6. [Git et déploiement sur GitHub](#-git-et-déploiement-sur-github)
 7. [Résumé](#-résumé)
 8. [Screenshots](#-screenshots)
+9. [Ressources](#-bibliographie)
+10. [Livres](#-livres)
 
 ---
 
@@ -183,6 +185,20 @@ Le projet a été conçu pour être facilement importé dans **IntelliJ**, avec 
 4. **Swing Tutorial – Oracle** – [https://docs.oracle.com/javase/tutorial/uiswing/](https://docs.oracle.com/javase/tutorial/uiswing/)
 5. **IntelliJ IDEA Guide** – [https://www.jetbrains.com/idea/guide/](https://www.jetbrains.com/idea/guide/)
 6. **GitHub Docs – Working with Markdown** – [https://docs.github.com/en/get-started/writing-on-github](https://docs.github.com/en/get-started/writing-on-github)
+
+## 📚 Livres
+
+- **Oracle (2024).** *Java Platform, Standard Edition Documentation.*  
+  Disponible sur : [https://docs.oracle.com/javase/](https://docs.oracle.com/javase/)
+
+- **MySQL (2024).** *MySQL Reference Manual.*  
+  Disponible sur : [https://dev.mysql.com/doc/](https://dev.mysql.com/doc/)
+
+- **JUnit Team (2023).** *JUnit 5 User Guide.*  
+  Disponible sur : [https://junit.org/junit5/docs/current/user-guide/](https://junit.org/junit5/docs/current/user-guide/)
+
+- **JetBrains (2024).** *IntelliJ IDEA User Guide.*  
+  Disponible sur : [https://www.jetbrains.com/idea/guide/](https://www.jetbrains.com/idea/guide/)
 
 
 
