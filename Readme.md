@@ -1,5 +1,7 @@
 # 🎯 Projet Gestion de Personnes - Java
 
+## Présenté par le groupe 2
+
 [![Java](https://img.shields.io/badge/Java-17+-blue)](https://www.oracle.com/java/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange)](https://www.mysql.com/)
 [![JUnit](https://img.shields.io/badge/JUnit-5.8-green)](https://junit.org/junit5/)
