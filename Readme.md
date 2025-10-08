@@ -1,5 +1,7 @@
 # 🎯 Projet Examen d théorie de test logiciel
 
+## Présenté par le groupe 2
+
 [![Java](https://img.shields.io/badge/Java-17+-blue)](https://www.oracle.com/java/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange)](https://www.mysql.com/)
 [![JUnit](https://img.shields.io/badge/JUnit-5.8-green)](https://junit.org/junit5/)
@@ -92,7 +94,7 @@ service.create(person);
 ```
 ## 🔹 Tests unitaires
 
-L’application utilise **JUnit 5** pour tester le bon fonctionnement des fonctionnalités principales, notamment l’insertion, la modification, la suppression et l’authentification des personnes.
+L’application utilise **JUnit 5** pour tester le bon fonctionnement des fonctionnalités principales, notamment l’insertion et l’authentification des personnes.
 
 ### 1️⃣ Structure des tests
 
@@ -153,7 +155,7 @@ Il faut :
 ## 🔹 Résumé
 Le **Projet Gestion de Personnes** est une application Java permettant de gérer des informations personnelles via une base de données **MySQL**. Il inclut :
 
-- **Insertion, modification, suppression et consultation** des personnes.
+- **Insertion** des personnes.
 - Une **interface graphique Swing** simple et intuitive pour ajouter ou se connecter.
 - Un **système d’authentification** sécurisé par email et mot de passe.
 - Des **tests unitaires JUnit 5** garantissant le bon fonctionnement des fonctionnalités principales.
