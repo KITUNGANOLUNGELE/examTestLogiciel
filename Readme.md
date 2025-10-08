@@ -173,4 +173,16 @@ Le projet a été conçu pour être facilement importé dans **IntelliJ**, avec 
 **Insertion succeed**
 ![connexion succed](images/img_2.png)
 
+---
+
+## 📖 Bibliographie
+
+1. **Oracle Java Documentation** – [https://docs.oracle.com/javase/](https://docs.oracle.com/javase/)
+2. **MySQL Documentation** – [https://dev.mysql.com/doc/](https://dev.mysql.com/doc/)
+3. **JUnit 5 User Guide** – [https://junit.org/junit5/docs/current/user-guide/](https://junit.org/junit5/docs/current/user-guide/)
+4. **Swing Tutorial – Oracle** – [https://docs.oracle.com/javase/tutorial/uiswing/](https://docs.oracle.com/javase/tutorial/uiswing/)
+5. **IntelliJ IDEA Guide** – [https://www.jetbrains.com/idea/guide/](https://www.jetbrains.com/idea/guide/)
+6. **GitHub Docs – Working with Markdown** – [https://docs.github.com/en/get-started/writing-on-github](https://docs.github.com/en/get-started/writing-on-github)
+
+
 
